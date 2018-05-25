@@ -5,6 +5,9 @@
   "license": "MIT",
   "private": true,
   "workspaces": {
-    "packages": ["packages/*"]
+    "packages": ["packages/*"],
+    "nohoist": [
+      "package1/**"
+    ]
   }
 }
